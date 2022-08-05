@@ -14,7 +14,7 @@ router.post('/api/v1.0/tweets/register', async (req, res) => {
         })
 
         await user.save()
-        const token = user.generateAuthToken() 
+        const token = user.generateAuthToken()  
  
         res.status(201).send({ user })
 
