@@ -13,6 +13,9 @@ const Authentication = () => {
             <Route path="/sign-in" element={<SignUp />}>
                 Sign Up
             </Route>
+            <Route path="/sign-in" element={<SignUp />}>
+                Sign Up
+            </Route>
         </Routes>
     )
 }
